@@ -166,3 +166,12 @@ border: 2px solid #F9FAF8;
 .action-text p {
   margin: 0;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 14px;
+}
