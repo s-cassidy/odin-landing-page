@@ -28,12 +28,17 @@ body > div {
   justify-content: space-between;
 }
 
+.hero-box img {
+height: 220px;
+  width: 50%;
+}
 .hero-box button {
 background-color: #3882F6;
   width: 100px;
   border: 0px;
   color: #F9FAF8;
   padding: 5px;
+  margin-top: 10px;
   border-radius: 5px;
 }
 
@@ -52,9 +57,13 @@ color: #E5E7EB;
 .hero-box {
   display: flex;
     flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
   padding-bottom: 50px;
   padding-top: 30px;
+}
+
+.hero-text {
+  width: 50%;
 }
 
 .hero-box h1 {
@@ -77,3 +86,37 @@ color: #E5E7EB;
   font-size: 18px;
   margin: 5px;
 }
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+}
+
+.card-image {
+  border: 2px solid #3882F6;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card p {
+  margin: 10px 0px;
+}
+
+.quote-box {
+  background-color: #E5E7EB;
+}
+
