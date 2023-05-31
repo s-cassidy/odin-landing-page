@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+body > div {
+  padding: 0 10%;
+}
+
+.header,
+.hero-box {
+  background-color: #1F2937;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-box button {
+background-color: #3882F6;
+  width: 100px;
+  border: 0px;
+  color: #F9FAF8;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+color: #E5E7EB;
+  font-size: 18px;
+  text-decoration-line: none;
+}
+
+.hero-box {
+  display: flex;
+    flex-direction: row;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.hero-box h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin: 5px;
+}
+
+
+.hero-image {
+  box-sizing: border-box;
+  width: 50%;
+  border-color: white;
+
+}
+
+.hero-box p {
+color: #E5E7EB;
+  font-size: 18px;
+  margin: 5px;
+}
