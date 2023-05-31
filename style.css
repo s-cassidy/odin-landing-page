@@ -145,3 +145,24 @@ align-self: self-end;
   font-size: 18px;
 }
 
+.call-to-action {
+background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 30px 10%;
+  margin: 10px 10%;
+  border-radius: 10px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action button {
+border: 2px solid #F9FAF8;
+}
+
+.action-text h2 {
+  margin: 0;
+}
+.action-text p {
+  margin: 0;
+}
